@@ -6,16 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
-    "next": "latest",
     "react": "latest",
     "react-dom": "latest"
   },
   "devDependencies": {
     "autoprefixer": "latest",
     "cypress": "^13.6.0",
+    "next": "^14.0.3",
     "postcss": "latest",
     "tailwindcss": "latest"
   }
